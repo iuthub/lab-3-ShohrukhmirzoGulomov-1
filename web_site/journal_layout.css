@@ -15,12 +15,12 @@
 }
 .main-box
 {
-    border: 5px solid white;
+    border: 10px solid white;
     background-color: white;
+    margin: 200px;
 }
 body{
     background-image: url(https://image.freepik.com/free-vector/damask-seamless-pattern-background_1217-821.jpg);
-    border: 5px solid white;
 }
 .box-end{
     margin-top: 10px;
@@ -37,7 +37,13 @@ span{
 }
 .two-box-flex{
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    align-content: flex-end;
+    flex-direction: column ;
+}
+.list-box
+{
+    
+    display: inline-block;
+    border: 5px solid rgb(31, 128, 119);
+    padding: 5px;
+    background-color: rgba(79, 199, 183, 0.521);
 }
