@@ -8,6 +8,7 @@
 }
 .fresh
 {
+    margin: 2px;
     display: flex;
     flex-direction: row-reverse;
     font-size: 14px;
@@ -21,14 +22,22 @@ body{
     background-image: url(https://image.freepik.com/free-vector/damask-seamless-pattern-background_1217-821.jpg);
     border: 5px solid white;
 }
-.fresh{
-    margin: 2px;
-}
-.box{
+.box-end{
     margin-top: 10px;
     border: 4px solid #C2E9E9;
     background-color: #E8FBFB;
 }
 span{
     border-bottom: 2px dashed #77b3b3;    
+}
+.flex-monster
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.two-box-flex{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
 }

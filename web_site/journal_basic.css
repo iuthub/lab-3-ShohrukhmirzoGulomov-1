@@ -22,7 +22,10 @@ body {
 	font-family: "Georgia";
 	color: #009097;
 }
-
+.monster{
+	display: flex;
+	flex-direction: row-reverse;
+}
 
 h1, h2 {
 	font-weight: normal;
